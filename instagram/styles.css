@@ -1,1 +1,64 @@
-/* Add your CSS here */
+body {
+  color: rgb(80, 80, 80);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+ul {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0px;
+}
+
+li {
+  padding: 10px 100px 10px 10px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(225, 225, 225);
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px 50px 75px 50px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h4 {
+  color: rgb(175, 175, 175);
+  font-size: 13px;
+}
+
+p {
+  font-size: 13px;
+}
+
+a {
+  color: rgb(80, 80, 80);
+  text-decoration: none;
+}
+
+.at-links {
+  color: rgb(85, 120, 153);
+}

@@ -1,1 +1,39 @@
-/* Add your CSS here */
+body {
+  margin: 0px 40px 40px 40px;
+}
+
+header {
+  display: block;
+  text-align: left;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  color: white;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  background: rgb(187, 42, 73);
+  padding: 10px 25px 10px 25px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  color: rgb(51, 51, 51);
+}

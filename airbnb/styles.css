@@ -1,1 +1,56 @@
-/* Add your CSS here */
+body {
+  color: rgb(51, 51, 51);
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+.container {
+  margin: 5px;
+}
+
+.container2{
+    display: flex;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+  color: white;
+  font-size: 12px;
+  background-image: linear-gradient(rgb(200,200,200),
+  rgb(50,50,50));
+  margin: 0px;
+  padding: 4px;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+p {
+  color: rgb(150, 150, 150);
+  border: 1px solid rgb(200, 200, 200);
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  list-style: none;
+}
+
+a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgb(255, 89, 103);
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
